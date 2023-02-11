@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.todo>li {
+  border:1px solid turquoise;
+  padding:10px;
+  margin:10px;
+}
+
+h3 {
+  text-align:center;
+}
+
+.todo-form{
+  mafgin:2rem;
+  text-align:center;
+}

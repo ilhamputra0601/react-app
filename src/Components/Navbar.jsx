@@ -2,9 +2,9 @@ import React from "react";
 class Navbar extends React.Component{
     render(){
         return(
-           <>
+    <>
     <nav class="navbar navbar-expand-lg bg-body-danger bg-danger body">
-  <div class="container-fluid">
+  <div class="container-fluid container">
     <a class="navbar-brand" href="/">Hamz</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -18,13 +18,16 @@ class Navbar extends React.Component{
           <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/Todo">Todo</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/blog">Blog</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-           </>
+</>
         )
     }
 }
